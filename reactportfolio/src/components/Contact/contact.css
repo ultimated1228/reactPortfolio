@@ -6,6 +6,57 @@
     text-align: center;
 }
 
+contactDesc{
+    font-size: medium;
+    font-weight: 300;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+.contactForm {
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    max-width: 60rem;
+    gap: 1rem;
+}
+
+.name, .email, .message{
+    font-size: medium;
+    width: 100%;
+    max-width: 40rem;
+    padding: .5rem 1rem;
+    color: white;
+    border: none;
+    border-radius: .5rem;
+    background-color: rgb(50,50,50);
+
+
+}
+
+.submitBtn{
+    background: white;
+    border: none;
+    padding: 0.75rem 3.5rem;
+    border-radius: 0.5rem;
+
+
+}
+
+#contactIcons{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 60rem;
+    height: 6rem;
+
+}
+
 .contactIcon{
-    height: 5rem
+    height: 3rem
 }

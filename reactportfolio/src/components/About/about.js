@@ -2,7 +2,6 @@ import React from 'react';
 import './about.css';
 import hero from '../../assets/hero.png';
 import hireMe from '../../assets/hireMe.png';
-import { Link } from 'react-scroll';
 
 const About = () => {
     return (
@@ -12,12 +11,12 @@ const About = () => {
                 <span >I'm <span className="introName">Steve Meyer</span><br /> </span>
                 <span className="introTitle">Full Stack Web Developer</span>
                 <p className="introPara">Extensive business experience combined with a passion for great user experiences, always keeps function and form at top of mind</p>
-                <Link>
+                <a href="https://docs.google.com/document/d/1gBeb0sKdtpOCwVv3Co-TtDkJ7uG0Fgoe/edit?usp=sharing&ouid=101219681311812727445&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer">
                     <button className="btn">
                         <img src={hireMe} alt='hire me' className="btnImg" />
-                        <p>Hire Me</p>
+                        <p>See Full Resume</p>
                     </button>
-                </Link>
+                </a>
             </div>
             <img src={hero} alt="Profile" className='hero' />
         </section>
