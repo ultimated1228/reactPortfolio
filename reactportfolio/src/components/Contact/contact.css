@@ -1,0 +1,11 @@
+#contactSection {
+    min-height: 20rem;
+    width: 100vw;
+    max-width: 60rem;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contactIcon{
+    height: 5rem
+}
