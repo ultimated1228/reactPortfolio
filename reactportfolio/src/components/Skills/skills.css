@@ -1,11 +1,41 @@
+#skills {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.skillTitle{
+    font-size: 3rem;
+    font-weight:600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.skillDesc {
+    font-weight: 300;
+    max-width: 50rem;
+    padding: 0 2rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.skillTagText{
+    font-size: 1.2rem;
+}
 #skillTags{
-    width: 90vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: center; 
-    width: 90vw;
     margin: 0 auto;
     gap: 10px; 
+    
 }
 
 .tagElements{
@@ -23,7 +53,7 @@
     fill: white;
 }
 #handlebars{
-    fill: white;
+    fill: rgb(106, 101, 210);
 }
 
 

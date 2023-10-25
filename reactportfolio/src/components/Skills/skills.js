@@ -5,7 +5,7 @@ const Skills = () => {
     return (
         <section id='skills'>
             <span className='skillTitle'> What I do </span>
-            <span className='skillDesc'>Through my time at the UC-Irvine coding bootcamp I was introduced to the following languages, frameworks, and database management systems. Throughout my time in the bootcamp at least one application was deployed using each of the below technologies: </span>
+            <span className='skillDesc'>Through my time at the UC-Irvine coding bootcamp I was introduced to the following languages, frameworks, and database management systems. During and after the bootcamp at least one application was deployed using each of the below technologies: </span>
             <section id="skillTags">
                 <div className="tagElements">
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="bootstrap logo" className="langIcon" />

@@ -1,0 +1,68 @@
+
+#projects {
+    overflow: hidden;
+    width: 100vw;
+    max-width: 65rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.projectTitle{
+    font-size: 3rem;
+    font-weight:600;
+    padding-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.projectSub {
+    font-weight: 300;
+    max-width: 50rem;
+    padding: 0 2rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.singleProjectCard{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.projectImg{
+    object-fit: cover;
+    height: 10rem;
+
+}
+
+#projectCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    margin: 0 auto;
+    gap: 10px; 
+
+}
+
+.heroProjectCard{
+    display:flex;
+    flex-direction: column;
+    width: 65rem;
+    text-align: left;
+    padding: 10px;
+    margin: 0 auto;
+}
+ .heroProjectImg {
+    height: 15rem;
+ }
+
+.singleProjectCard{
+    flex: 0 0 calc(49% - 10px);
+    text-align: left;
+    padding: 10px;
+    margin: 5px;
+}
