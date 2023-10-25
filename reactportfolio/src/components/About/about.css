@@ -2,7 +2,7 @@
     height: calc(100vh - 8rem);
     width: 100vw;
     max-width: 75rem;
-    margin: 8rem auto 0 auto;
+    margin: 1rem auto 0 auto;
     overflow: hidden;
     position: relative;
 }
@@ -10,10 +10,10 @@
 .hero {
     position: absolute;
     z-index: -1;
-    top: -4rem;
-    right: 0;
-    height: 75vh;
-    width: 40vw;
+    top: 0;
+    right: 40px;
+    object-fit: cover;
+    height: 100vh;
 
 }
 
@@ -26,11 +26,16 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-shadow: 2px 2px 5px black;
     
 }
 
+.introTitle {
+    width: 75vw;
+}
+
 .hello{
-    font-size: 1.75rem;
+    font-size: 2.5rem;
     font-weight: 300;
 }
 
@@ -42,7 +47,7 @@
 .introPara {
     font-size: medium;
     font-weight: 300;
-    
+    width: 35vw;
 }
 
 .btn {
@@ -65,3 +70,41 @@
 }
 
 
+@media screen and (max-width:1250px) {
+
+    .hero{
+        right: 0px;
+
+    }
+    .introContent {
+        width: 75vw;
+        
+    }
+    .introPara {
+        width: 50vw;
+        
+    }
+    .hello{
+        font-size: 4.5rem;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+
+    .hero{
+        right: -70px;
+
+    }
+    .introContent {
+        width: 100vw;
+        text-shadow: 2px 2px 5px black;
+    }
+    .introPara {
+        width: 75vw;
+    }
+    .hello{
+        font-size: 4.5rem;
+    }
+
+}
