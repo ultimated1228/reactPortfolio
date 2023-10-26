@@ -7,6 +7,7 @@
     margin: 1rem auto 0 auto;
     overflow: hidden;
     position: relative;
+    min-height: 900px;
 }
 
 .hero {
@@ -16,6 +17,7 @@
     right: 40px;
     object-fit: cover;
     height: 100vh;
+    min-height: 700px;
 
 }
 
@@ -29,7 +31,7 @@
     flex-direction: column;
     justify-content: center;
     text-shadow: 2px 2px 5px black;
-    
+    min-height: 900px;
 }
 
 .introTitle {
@@ -92,12 +94,16 @@
 
 }
 
-@media screen and (max-width:500px) {
-
+@media screen and (max-width:720px) {
     .hero{
         right: -200px;
 
     }
+}
+
+@media screen and (max-width:500px) {
+
+    
     .introContent {
         width: 100vw;
         text-shadow: 2px 2px 5px black;
