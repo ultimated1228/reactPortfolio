@@ -6,6 +6,11 @@
     text-align: center;
 }
 
+.contactPageTitle{
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
 contactDesc{
     font-size: medium;
     font-weight: 300;
@@ -59,4 +64,29 @@ contactDesc{
 
 .contactIcon{
     height: 3rem
+}
+
+.error{
+    color: white;
+    background-color: red;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+.success-message{
+    color: white;
+    background-color: #5EFC8D;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+
+#footer{
+    height: 5rem;
+    background-color: rgb(40,40,40);
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    font-size: small;
 }

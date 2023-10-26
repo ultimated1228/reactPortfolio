@@ -11,17 +11,16 @@ const Navbar = () => {
     const [showMenu, setShowMenu] = useState(false);
     return (
         <div className="totalHeader">
-            <nav className="navbar">
-                <img src={logo} alt="developer logo" className='logo ' />
+            <nav id="navbar">
+                <img src={logo} alt="developer logo" className='logo' />
                 <div className="desktopMenu">
-                    <Link className="desktopMenuListItem" to='' offset={0} smooth={true} duration={500}>Home</Link>
-                    <Link className="desktopMenuListItem" activeClass='active' to='intro' spy={true} offset={-200} smooth={true} duration={500}>About</Link>
+                    <Link className="desktopMenuListItem" activeClass='active' to='top' offset={-150} smooth={true} duration={500}>Home</Link>
+                    <Link className="desktopMenuListItem" activeClass='active' to='intro' spy={true} offset={-150} smooth={true} duration={500}>About</Link>
                     <Link className="desktopMenuListItem" activeClass='active' to='skills' spy={true} offset={-150} smooth={true} duration={500}>Skills</Link>
                     <Link className="desktopMenuListItem" activeClass='active' to='projects' spy={true} offset={-150} smooth={true} duration={500}>Projects</Link>
-
                 </div>
 
-                <button className="desktopMenuBtn" onClick={() => {document.getElementById('contactSection').scrollIntoView({behavior: 'smooth'})}}>
+                <button className="desktopMenuBtn" onClick={() => {document.getElementById('contactSection').scrollIntoView({behavior: 'smooth'})}} >
                     <img src={contactImg} alt="contact developer" className="desktopMenuImg" />
                     Contact Me
                 </button>
