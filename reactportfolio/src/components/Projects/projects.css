@@ -1,7 +1,7 @@
 
 #projects {
     overflow: hidden;
-    width: 95vw;
+    width: 90vw;
     max-width: 65rem;
     display: flex;
     flex-direction: column;
@@ -30,7 +30,7 @@
 .singleProjectCard{
     display: flex;
     flex-direction: column;
-    width: 45vw;
+    width: 42vw;
     max-width: 31rem;
     gap: 0.5rem;
     
@@ -45,7 +45,7 @@
 }
 
 #projectDetails{
-    display:flex;
+    display: flex;
     gap: 1rem;
     margin-left:1.5rem;
 
@@ -61,10 +61,14 @@
     font-size: x-large;
     font-weight: 500;
     margin-left:1.5rem;
+    hyphens: auto;
 }
 
 .projectTech{
     margin-left:1.5rem;
+    hyphens: auto;
+    font-weight: 200;
+
 }
 
 #projectCards{
@@ -81,7 +85,7 @@
     
     display:flex;
     flex-direction: column;
-    width: 95vw;
+    width: 90vw;
     max-width: 65rem;
     text-align: left;
     padding: 10px;
@@ -106,9 +110,9 @@
 
 }
 
-@media screen and (max-width:675px) {
+@media screen and (max-width:750px) {
     .singleProjectCard{
-        width:95vw
+        width:90vw
         
     }
 }
