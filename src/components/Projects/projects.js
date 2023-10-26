@@ -1,6 +1,5 @@
 import React from 'react';
 import './projects.css';
-import logo from "../../assets/logo1.png"
 import BB from "../../assets/BrainBalance.png"
 import link from "../../assets/link.png"
 import github from "../../assets/githubLink.png"
@@ -49,7 +48,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="singleProjectCard">
-                    <img src={BB} alt="Brain Balance Project Photo" className="projectImg" />
+                    <img src={BB} alt="Brain Balance Project Example" className="projectImg" />
 
                     <span className="projectDesc">Brain Balance Task List</span>
                     <span className="projectTech">HTML / CSS / JS / Axios & Youtube APIs</span>
