@@ -1,70 +1,141 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <p id="back_to_top"></p>
+  
+# Developer Portfolio
+Developer Portfolio built with React
 
-## Available Scripts
+  ## Table of Contents
 
-In the project directory, you can run:
+  <div style="display: flex;">
+  <a href="#description" style="text-decoration: none; margin: 5px;">
+    <img src="https://img.shields.io/badge/Description-37a779?style=for-the-badge" alt="Description" />
+  </a>
+  <a href="#built-with" style="text-decoration: none; margin: 5px;">
+    <img src="https://img.shields.io/badge/Built With-37a779?style=for-the-badge" alt="builtWith" />
+  </a>
+  <a href="#usage" style="text-decoration: none; margin: 5px;">
+    <img src="https://img.shields.io/badge/Usage-37a779?style=for-the-badge" alt="Usage" />
+  </a>
+  <a href="#contributing" style="text-decoration: none; margin: 5px;">
+    <img src="https://img.shields.io/badge/Contributing-37a779?style=for-the-badge" alt="Contributing" />
+  </a>
+  <a href="#license" style="text-decoration: none; margin: 5px; height: 20px;">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License" alt="License" />
+  </a>
+  <a href="#contact" style="text-decoration: none; margin: 5px;">
+    <img src="https://img.shields.io/badge/Contact-37a779?style=for-the-badge" alt="Contact" />
+  </a>
+</div>
 
-### `npm start`
+### Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Welcome to my Developer Portfolio!
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This is a dynamic and responsive portfolio website built using React along with vanilla HTML, CSS and JS. The portfolio showcases my skills, projects, and personal information. Whether you're a fellow developer, potential employer, or just someone curious about my work, this portfolio is designed to provide a glimpse into my journey as a software engineer.
 
-### `npm test`
+Features:
+- About Me: Get to know me better through my personal introduction and background.
+- Skills: Explore the technologies and tools I'm proficient in.
+- Projects: Check out a curated selection of my projects with descriptions, live links, and GitHub repositories.
+- Contact: Reach out to me directly through a contact form for collaboration or inquiries.
+- Additional Links: Find links to my LinkedIn and GitHub profiles to connect and explore more of my work.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p align="right">(<a href="#back_to_top">back to top</a>)</p>
 
-### `npm run build`
+## Built With
+This application relies on the following software:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* [![React][React]][React-url]
+* [![Netlify][Netlify]][Netlify-url]
+* [![HTML][HTML]][HTML-url]
+* [![CSS][CSS]][CSS-url]
+* [![JS][JS]][JS-url]
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<p align="right">(<a href="#back_to_top">back to top</a>)</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
 
-### `npm run eject`
+[Live link](https://thunderous-souffle-b517bd.netlify.app/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Example photos:  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<img src="./assets/main.png">  
+Homepage View
+<br><br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<img src="./assets/whatido.png">  
+The Skills section
+<br><br>
+<img src="./assets/projects.png">  
+The projects section  
+<br><br>
+<img src="./assets/contact.png">  
+The contact section  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<br>  
+  
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<p align="right">(<a href="#back_to_top">back to top</a>)</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contributing
+Everyone is welcome to send contributions up for review through github!  All contributions will certainly be reviewed and committed if found valuable and error free!
 
-### Code Splitting
+<p align="right">(<a href="#back_to_top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## License
+MIT License
 
-### Analyzing the Bundle Size
+Copyright (c) 2023 ultimated1228
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Permission is hereby granted, free of charge, to any person or organization
+obtaining a copy of the software and accompanying documentation covered by
+this license (the "Software") to use, reproduce, display, distribute,
+execute, and transmit the Software, and to prepare derivative works of the
+Software, and to permit third-parties to whom the Software is furnished to
+do so, all subject to the following:
 
-### Making a Progressive Web App
+The copyright notices in the Software and this entire statement, including
+the above license grant, this restriction and the following disclaimer,
+must be included in all copies of the Software, in whole or in part, and
+all derivative works of the Software, unless such copies or derivative
+works are solely in the form of machine-executable object code generated by
+a source language processor.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT. IN NO EVENT
+SHALL THE COPYRIGHT HOLDERS OR ANYONE DISTRIBUTING THE SOFTWARE BE LIABLE
+FOR ANY DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+Fore more details on the [MIT License](https://opensource.org/licenses/MIT) please click the link, or check out the license file in the repo.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<p align="right">(<a href="#back_to_top">back to top</a>)</p>
 
-### `npm run build` fails to minify
+## Contact
+You can get in touch with the creator through:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Steve Meyer
+    * [Steve Meyer Github](https://github.com/ultimated1228)
+    * [Email Steve](mailto:stevenlucasmeyer@gmail.com)
+
+
+<p align="right">(<a href="#back_to_top">back to top</a>)</p>
+
+
+[React]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
+[React-url]: https://legacy.reactjs.org/docs/getting-started.html
+[Netlify]: https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white
+[Netlify-url]: https://www.netlify.com/
+[HTML]:https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
+[HTML-url]: https://developer.mozilla.org/en-US/docs/Web/HTML
+[CSS]:https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white
+[CSS-url]: https://developer.mozilla.org/en-US/docs/Web/CSS
+[JS]:https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E
+[JS-url]: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+
