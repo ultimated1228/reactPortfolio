@@ -59,17 +59,17 @@ This application relies on the following software:
 
 Example photos:  
 
-<img src="./assets/main.png">  
+<img src="./zassets/main.png">  
 Homepage View
 <br><br>
 
-<img src="./assets/whatido.png">  
+<img src="./zassets/whatido.png">  
 The Skills section
 <br><br>
-<img src="./assets/projects.png">  
+<img src="./zassets/projects.png">  
 The projects section  
 <br><br>
-<img src="./assets/contact.png">  
+<img src="./zassets/contact.png">  
 The contact section  
 
 <br>  
