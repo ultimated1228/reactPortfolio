@@ -6,7 +6,7 @@ import github from "../../assets/githubLink.png"
 import morningRoutine from "../../assets/morningroutine.png"
 import ecomm from "../../assets/ecomm.png"
 import ticketHandler from "../../assets/tickethandler.png"
-import comingSoon from "../../assets/comingsoon.png"
+import willDo from "../../assets/will-do.png"
 
 const Projects = () => {
     return (
@@ -25,12 +25,16 @@ const Projects = () => {
             </div>
             <section id="projectCards">
             <div className="singleProjectCard">
-                    <img src={comingSoon} alt="" className="projectImg" />
-                    <span className="projectDesc">Coming Soon</span>
-                    <span className="projectTech">Project will be complete by November 8th</span>
+                    <img src={willDo} alt="Will Do Project Example" className="projectImg" />
+                    <span className="projectDesc">Will Do - Goal/Task Manager</span>
+                    <span className="projectTech">React / CSS3 / Node / React Router / Express / D3JS / Render </span>
                     <div id="projectDetails">
+                    <a href="https://will-do-7ujl.onrender.com/" target="_blank" rel="noopener noreferrer">
                         <img src={link} className='linkIcon' alt='link to live project' />
+                        </a>
+                        <a href="https://github.com/kyleochata/Will-DO-Crush-your-goals" target="_blank" rel="noopener noreferrer">
                         <img src={github} className='linkIcon' alt='link to project repo' />
+                        </a>
                     </div>
                 </div>
                 

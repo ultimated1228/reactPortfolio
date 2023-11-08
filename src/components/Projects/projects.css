@@ -38,10 +38,10 @@
 
 .projectImg{
     object-fit: cover;
-    height: 10rem;
+    height: 15rem;
     box-shadow: rgba(94, 252, 141, 0.4) 5px 5px, rgba(94, 252, 141, 0.3) 10px 10px, rgba(94, 252, 141, 0.2) 15px 15px, rgba(94, 252, 141, 0.1) 20px 20px, rgba(94, 252, 141, 0.05) 25px 25px;
     margin-bottom: 1.25rem;
-
+    border-radius: 0.5rem;
 }
 
 #projectDetails{
@@ -92,10 +92,12 @@
     margin: 0 auto;
 }
  .heroProjectImg {
-    
+    object-fit: cover;
     
     box-shadow: rgba(94, 252, 141, 0.4) 5px 5px, rgba(94, 252, 141, 0.3) 10px 10px, rgba(94, 252, 141, 0.2) 15px 15px, rgba(94, 252, 141, 0.1) 20px 20px, rgba(94, 252, 141, 0.05) 25px 25px;
     margin-bottom: 1.25rem;
+    height: 25rem;
+    border-radius: 0.5rem;
  }
 
 .singleProjectCard{
@@ -104,15 +106,18 @@
     margin: 5px;
 }
 
-.projectImg{
-    border-radius: 0.5rem;
-    height: 15rem;
 
-}
 
 @media screen and (max-width:750px) {
     .singleProjectCard{
         width:90vw
         
     }
+    .heroProjectImg {
+        
+        height: 15rem;
+     }
+     .singleProjectImg {
+        height: 12rem;
+     }
 }

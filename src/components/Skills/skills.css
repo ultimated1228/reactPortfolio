@@ -57,3 +57,11 @@
 }
 
 
+@media screen and (max-width:800px) {
+    .langIcon {
+        height: 60px;
+    }
+    .skillTagText{
+        font-size: .8rem;
+    }
+}
