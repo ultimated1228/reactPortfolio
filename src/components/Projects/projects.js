@@ -52,6 +52,19 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="singleProjectCard">
+                    <img src={morningRoutine} alt="Morning Routine Example" className="projectImg" />
+                    <span className="projectDesc">Morning Routine App</span>
+                    <span className="projectTech">HTML / CSS / JS / Heroku / Twilio API for sending text messages</span>
+                    <div id="projectDetails">
+                        <a href="https://mysterious-garden-36851-0f6298603722.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                            <img src={link} className='linkIcon' alt='link to live project' />
+                        </a>
+                        <a href="https://github.com/ultimated1228/morningRoutine" target="_blank" rel="noopener noreferrer">
+                            <img src={github} className='linkIcon' alt='link to project repo' />
+                        </a>
+                    </div>
+                </div>
+                <div className="singleProjectCard">
                     <img src={BB} alt="Brain Balance Project Example" className="projectImg" />
 
                     <span className="projectDesc">Brain Balance Task List</span>
@@ -61,19 +74,6 @@ const Projects = () => {
                             <img src={link} className='linkIcon' alt='link to live project' />
                         </a>
                         <a href="https://github.com/ultimated1228/brainBalance" target="_blank" rel="noopener noreferrer">
-                            <img src={github} className='linkIcon' alt='link to project repo' />
-                        </a>
-                    </div>
-                </div>
-                <div className="singleProjectCard">
-                    <img src={morningRoutine} alt="Morning Routine Example" className="projectImg" />
-                    <span className="projectDesc">Morning Routine App</span>
-                    <span className="projectTech">HTML / CSS / JS / Heroku / Twilio API for sending text messages</span>
-                    <div id="projectDetails">
-                        <a href="https://mysterious-garden-36851-0f6298603722.herokuapp.com/" target="_blank" rel="noopener noreferrer">
-                            <img src={link} className='linkIcon' alt='link to live project' />
-                        </a>
-                        <a href="https://github.com/ultimated1228/morningRoutine" target="_blank" rel="noopener noreferrer">
                             <img src={github} className='linkIcon' alt='link to project repo' />
                         </a>
                     </div>
